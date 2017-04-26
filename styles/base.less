@@ -55,7 +55,7 @@ atom-text-editor {
 // Syntax styles
 
 .syntax--comment {
-  color: @indigo-light;
+  color: @comment-color;
 }
 
 .syntax--keyword {
@@ -67,7 +67,6 @@ atom-text-editor {
 
   &.syntax--operator {
     color: @syntax-text-color;
-    color: red;
   }
 
   &.syntax--other.syntax--special-method {
@@ -121,7 +120,7 @@ atom-text-editor {
 }
 
 .syntax--string {
-  color: @orange;
+  color: @yellow;
 
 
   &.syntax--regexp {
@@ -138,9 +137,11 @@ atom-text-editor {
 }
 
 .syntax--punctuation {
+  color: @teal;
+
   &.syntax--definition {
     &.syntax--comment {
-      color: @sky-light;
+      color: @comment-color;
     }
 
     &.syntax--string,
@@ -188,7 +189,7 @@ atom-text-editor {
 
 .syntax--entity {
   &.syntax--name.syntax--function {
-    color: @blue;
+    color: @teal;
   }
   &.syntax--name.syntax--type {
     color: @orange-light;
@@ -211,7 +212,7 @@ atom-text-editor {
   }
 
   &.syntax--tag {
-    color: red;
+    color: @red;
   }
 
   &.syntax--other.syntax--attribute-name {
@@ -303,18 +304,3 @@ atom-text-editor {
 atom-text-editor[mini] .scroll-view {
   padding-left: 1px;
 }
-
-
-
-
-// .syntax--punctuation, .syntax--definition, .syntax--tag, .syntax--begin, .syntax--html {
-//   color: lime;
-// }
-
-.syntax--punctuation {
-  color: @teal;
-}
-
-// .syntax--punctuation, .syntax--definition, .syntax--string, .syntax--begin, .syntax--html {
-//   color: lime;
-// }
