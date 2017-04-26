@@ -1,7 +1,7 @@
 {
   "name": "shopify-polaris-syntax",
   "theme": "syntax",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A syntax theme based on Shopify's Polaris Design System",
   "keywords": [
     "syntax",
