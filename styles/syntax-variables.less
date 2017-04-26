@@ -6,7 +6,7 @@
 // General colors
 @syntax-text-color: @sky-lighter;
 @syntax-cursor-color: @sky-lighter;
-@syntax-selection-color: @purple-light;
+@syntax-selection-color: @title-bar;
 @syntax-background-color: @background-color;
 
 // Guide colors
@@ -19,10 +19,10 @@
 @syntax-result-marker-color-selected: @sky-lighter;
 
 // Gutter colors
-@syntax-gutter-text-color: @indigo-light;
-@syntax-gutter-text-color-selected: @syntax-gutter-text-color;
+@syntax-gutter-text-color: fadeout(@indigo-light, 60%);
+@syntax-gutter-text-color-selected: @indigo-light;
 @syntax-gutter-background-color: @indigo-darker;
-@syntax-gutter-background-color-selected: darken(@syntax-background-color, 2%);
+@syntax-gutter-background-color-selected: lighten(@syntax-background-color, 3%);
 
 // For git diff info. i.e. in the gutter
 @syntax-color-renamed: @blue;
