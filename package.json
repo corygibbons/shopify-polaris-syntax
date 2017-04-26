@@ -1,0 +1,18 @@
+{
+  "name": "shopify-polaris-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "A syntax theme based on Shopify's Polaris Design System",
+  "keywords": [
+    "syntax",
+    "theme",
+    "shopify",
+    "polaris"
+  ],
+  "repository": "https://github.com/corygibbons/shopify-polaris-syntax",
+  "author": "Cory Gibbons",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
