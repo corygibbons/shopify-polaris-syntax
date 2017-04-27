@@ -10,7 +10,7 @@
 @syntax-background-color: @background-color;
 
 // Guide colors
-@syntax-wrap-guide-color: @ink-lighter;
+@syntax-wrap-guide-color: fadeout(@sky-lighter, 92%);
 @syntax-indent-guide-color: fadeout(@sky-lighter, 92%);
 @syntax-invisible-character-color: fadeout(@sky-lighter, 92%);
 
@@ -22,7 +22,7 @@
 @syntax-gutter-text-color: fadeout(@indigo-light, 60%);
 @syntax-gutter-text-color-selected: @indigo-light;
 @syntax-gutter-background-color: @indigo-darker;
-@syntax-gutter-background-color-selected: lighten(@syntax-background-color, 3%);
+@syntax-gutter-background-color-selected: lighten(@syntax-background-color, 2%);
 
 // For git diff info. i.e. in the gutter
 @syntax-color-renamed: @blue;

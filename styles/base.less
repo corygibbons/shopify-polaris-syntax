@@ -78,7 +78,7 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--unit {
-    color: @orange;
+    color: @yellow;
   }
 }
 
@@ -94,6 +94,10 @@ atom-text-editor {
   }
 
   &.syntax--numeric {
+    color: @yellow;
+  }
+
+  &.syntax--color {
     color: @orange;
   }
 
@@ -107,7 +111,7 @@ atom-text-editor {
 }
 
 .syntax--variable {
-  color: @red;
+  color: @indigo;
 
   &.syntax--interpolation {
     color: darken(@red, 10%);
@@ -119,8 +123,8 @@ atom-text-editor {
 }
 
 .syntax--invalid.syntax--illegal {
-  background-color: @red;
-  color: @syntax-background-color;
+  background-color: @yellow;
+  color: @ink;
 }
 
 .syntax--string {
@@ -186,7 +190,7 @@ atom-text-editor {
     color: @teal;
 
     &.syntax--any-method {
-      color: @blue;
+      color: @purple;
     }
   }
 }
@@ -220,10 +224,10 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @orange-light;
+    color: @purple;
 
     &.syntax--id {
-      color: @blue;
+      color: @red;
     }
   }
 }
@@ -300,6 +304,10 @@ atom-text-editor {
   &.syntax--heading {
     color: @green;
   }
+}
+
+.syntax--property-name {
+  color: @orange-light;
 }
 
 
